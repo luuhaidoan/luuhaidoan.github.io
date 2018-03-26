@@ -1,0 +1,42 @@
+#menu a, h1 {
+	margin-left: 10px;
+}
+
+h1 { 
+	color: #cbc0ff;
+	 }
+
+
+img {
+  	max-height: 400px;
+    width: 100%;
+}
+#menu a{
+	font-size: 20px;
+	color: #6fbd14;
+	text-decoration: none;
+	}
+#menu a:hover, #menu a.active {
+	color: black;
+}
+.box {
+	border-radius: 15px ;
+	float: left;
+	border: 1px solid ;
+	border-top-width: 3px;
+	padding: 10px;
+	width: 30%;
+	margin: 5px;
+}
+.info {
+	background-color: #FF5722;
+}
+.contact {
+ 	background-color: #8BC34A;
+ }
+.company {
+	background-color: #FFC107;
+}
+span {
+	color: #8e2c0d;
+}

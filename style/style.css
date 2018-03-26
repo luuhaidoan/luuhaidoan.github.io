@@ -1,0 +1,32 @@
+
+a:link{
+	color: black;
+	background-color: pink;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+	background-color: green;
+}
+h1 {
+	color: #ff3505;
+	text-align: center;
+	
+	}
+h2 {
+	color: #ea9a9a;
+	text-decoration: underline;
+}
+
+p{
+	font-size: 18px;
+}
+
+img{max-width: 100%;
+	max-width: 500px;
+	border-color: pink;
+	border-radius: 10%;
+	border-width: 5px;
+	border-style: ridge;
+}

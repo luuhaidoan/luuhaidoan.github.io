@@ -1,0 +1,32 @@
+
+h1 {
+	text-align: center;
+	color: pink;
+	font-size: 50px;
+}
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	color: blue;
+	font-size: 22px;
+}
+body {
+	max-width: 680px;
+	text-align: justify;
+
+}
+img {max-width: 100%;
+	border: 5px ridge #00BCD4;
+}
+p, a {
+	text-indent: 15px;
+	text-decoration: none;
+}
+a:link {
+	color: #b9a614;
+}
+a:hover {
+	color: #2e8a81;
+}
