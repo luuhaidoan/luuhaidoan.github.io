@@ -1,0 +1,14 @@
+img {
+	max-width: 500px;
+}
+* {
+	text-align: justify;
+	width: 1000px;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 5px;
+}
+h1, h2 {
+	color: #e64150;
+
+}
