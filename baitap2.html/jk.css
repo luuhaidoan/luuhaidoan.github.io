@@ -1,0 +1,89 @@
+
+
+* {
+	box-sizing: border-box;
+
+}
+
+#war {
+	margin: auto;
+	width: 1000px;
+}
+
+
+
+#anh {
+
+	width: 100px;
+	height: 100px;
+}
+#anh:hover {
+	border: 5px solid #222;
+}
+
+
+
+.tieude {
+	font-size: 45px;
+	float: right;
+	width: 25%;
+}
+#nen {
+	border:50px;
+	height: 565px;
+	width: 75%;
+	padding: 0 2% 2.1%;
+}
+
+
+.link {
+	padding: 2% 2%;
+	font-size: 23px;
+}
+
+
+#menu {
+	text-decoration: none;
+	color: pink;
+	padding: 0 6% 0;
+}
+#menu:hover {
+	font-size: 150%;
+	color: #aa81bf;
+
+}
+.gioithieu {
+    padding: 0% 7%;
+    }
+
+
+
+.gioithieu #himg {
+    padding: 2% 23% 1%;
+
+}
+.gioithieu p {
+	text-align: center;
+	font-size: 18px;
+}
+.gioithieu span {
+	text-align: center;
+}
+.gioithieu img {
+	width: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
