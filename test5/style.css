@@ -4,7 +4,7 @@
 }
 
 body 
-{
+{	
 	width: 1140px;
 	margin: auto;
 }
@@ -17,7 +17,7 @@ body
 	text-decoration: none;
 	font-family: Impact;
 	padding-bottom: 40px;
-	color: #565356;
+	color: #f66528;
 }
 .main-menu a:hover 
 {
@@ -30,15 +30,22 @@ body
 }
 
 .main-menu 
-{
+{	position: absolute;
 	display: inline-block;
 	padding: 20px;
 	float: left;
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXUlQDri7Uqh_qVS55vEYLNxZHOYMvar0FLhUPzwJQl_4UFkq);
+	
+}
+.picture
+{
+	padding-bottom: 50px;
 }
 
+
+
+
 .picture img
-{	
+{
 	width: 20%;
 	height: 475px;
 	padding: 0;
@@ -46,13 +53,13 @@ body
 
 .picture img#logo 
 {
-	width: 47%;
+	width: 58%;
 }
 
 
 .content 
 {
-	padding: 5px;
+	padding-right: 20px;
 	width: 50%;
 	float: left;
 	text-align: center;
