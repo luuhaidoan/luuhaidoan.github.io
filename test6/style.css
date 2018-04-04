@@ -1,0 +1,212 @@
+* 
+{
+	box-sizing: border-box;
+}
+
+
+.content 
+{	border: 2px solid #ddd;
+	margin: auto;
+	float: left;
+	max-width: 75%;
+}
+
+
+.main-menu 
+{
+	text-align: center;
+	float: left;
+	width: 33.3333%;
+	overflow: hidden;
+	border:1px solid #ddd;
+	cursor: pointer;
+
+
+}
+.atama img
+{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.atama h1
+{
+	padding: 5px;
+	margin: auto;
+	text-align: center;
+	font-family: Century Gothic;
+}
+.atama a
+{
+	text-decoration: none;
+	padding: 10px 10px;
+	font-size: 20px;
+	color: #eb8502;
+	display: inline-block;
+}
+@keyframes atama 
+{
+	0% {transform: translateX(5px);}
+	30%{ transform: translateY(5px); }
+	60%{ transform: translateX(-5px); }
+	100%{ transform: translateY(-5px); }
+}
+
+@keyframes namae
+{
+	15%{ transform: translateX(-100%); opacity: 0; color:#ff5722; }
+	25%{ transform: translateX(-50%); opacity: 0.5; color: #8bc34a}
+	35%{ transform: translateX(0%); opacity: 0.7; color: #517180}
+	75%{transform: translateX(50%); opacity: 1;color: #517180}
+	100%{transform: translateX(100%); opacity: 0 }
+}
+
+.namae 
+{
+	animation: namae 5s ease infinite;
+	font-family: Century Gothic;
+	font-size: 20px;
+
+}
+.namae img 
+{
+	width: 4%;
+	position: absolute;
+	top: -22%;
+
+}
+.namae span
+{
+	position: relative;
+}
+
+
+.atama a:hover
+{
+	color: #4caf50;
+	animation: atama 0.5s ease infinite;
+}
+
+
+.main-menu img
+{
+	width: 80%;
+	opacity: 0.7;
+	transition: all 0.5s ease;
+	padding: 13%;
+	overflow: hidden;
+}
+.main-menu:hover img 
+{	transform: scale(1.5);
+	opacity: 1;
+
+}
+
+
+.yield 
+{
+	display: block;
+	color: #e69002;
+	font-family: Helvetica;
+}
+
+
+.price
+{
+	display: block;
+	padding: 15px;
+}
+
+
+.about
+{
+	float: right;
+	max-width: 23%;
+	margin: auto;
+	padding: 10px;
+}
+.about span
+{
+	color: red;
+}
+.about div
+{
+	color: blue;
+}
+.about h3
+{
+	color: green;
+	text-align: center;
+
+
+
+}
+@keyframes title {
+	0% {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+	30% {
+		transform: translateY(0);
+		opacity: 1
+	}
+	60% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	70% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	71% {
+		transform: translateY(0);
+		opacity: 0;
+	}
+
+	100%{
+		transform: translateY(0);
+		opacity: 0;
+	}
+
+
+}
+
+.tit {
+	padding: 20px 0;
+	font-family: Century Gothic;
+	font-size: 20px;
+
+}
+
+.logo 
+{
+	animation: title 10s ease infinite;
+	opacity: 1;
+	width: 23%;
+	float: right;
+	padding: 10px;
+	margin: auto;
+}
+.logo img 
+{
+	width: 262px;
+	height: auto;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
