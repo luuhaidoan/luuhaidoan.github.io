@@ -106,7 +106,7 @@
 
 
 .want img:hover {
-	opacity: 0.8;
+	opacity: 1;
 	width: 100%;
 	transform: scale(1.2);
 	transition: all 1s ease ;
