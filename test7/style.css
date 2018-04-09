@@ -58,10 +58,10 @@
 .live span {
 	color: green;
 }
-.aodai {
+.image {
 	position: relative;
 }
-.aodai2 {
+.image2 {
 	position: absolute;
 	top:12px;
 	left: 0px;
@@ -71,7 +71,7 @@
 @keyframes aodai2 {
 	50% { opacity: 0.9 }
 }
-.aodai1 {
+.image1 {
 	animation: aodai1 10s ease infinite;
 }
 @keyframes aodai1 {
