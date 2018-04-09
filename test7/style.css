@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.banner img {
+	width: 100%;
+}
+
+
+.text {
+	color: deeppink;
+	animation: title 3s ease infinite;
+	text-align: center;
+}
+
+@keyframes title {
+	0% {  background-color:#dccccc; }
+	10% {  color: #03f44f; background-color: #18414e;}
+	20% {  color: #03A9F4; background-color: #E91E63;}
+	50% { color: #3f51b5; background-color: #18414e;}
+	80% {  color: #E91E63; background-color: #03f44f;}
+	90% { opacity: 0.5; color: #03f44f; background-color: #18414e; }
+	100% { opacity: 0;color: #03f44f; background-color: #03A9F4; }
+}
+
+.live {
+	width: 50%;
+	float: left;
+	text-align: justify;
+	font-family: fantasy;
+	padding: 3%;
+
+}
+
+
+
+
+
+
+
+.live img {
+	opacity: 0.9;
+	width: 100%;
+	
+	position: relative;
+	z-index: 1;
+}
+
+
+.live h3 {
+	text-align: center;
+	font-size: 35px;
+	color: #5a7b2e;
+	font-family: cursive;
+
+}
+.live span {
+	color: green;
+}
+.aodai {
+	position: relative;
+}
+.aodai2 {
+	position: absolute;
+	top:12px;
+	left: 0px;
+	opacity: 0;
+	animation: aodai2 10s ease infinite;
+}
+@keyframes aodai2 {
+	50% { opacity: 0.9 }
+}
+.aodai1 {
+	animation: aodai1 10s ease infinite;
+}
+@keyframes aodai1 {
+	50% { opacity: 0 }
+}
+
+
+
+.girl img {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+
+}
+.want {
+	width: 50%;
+	float: left;
+	padding: 3%;
+}
+
+.book {
+	height: 50%;
+	padding-top: 6%;
+	padding-bottom: 6%;
+
+}
+
+.pict img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+
+}
+.pict {
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+
+.want img:hover {
+	opacity: 0.8;
+	width: 100%;
+	transform: scale(1.2);
+	transition: all 1s ease ;
+}
+
+.want h3 {
+	color: hotpink;
+	font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
