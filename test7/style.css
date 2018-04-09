@@ -9,7 +9,7 @@
 
 
 .text {
-	color: deeppink;
+	color: #e91e63;
 	animation: title 3s ease infinite;
 	text-align: center;
 }
@@ -45,6 +45,7 @@
 	
 	position: relative;
 	z-index: 1;
+
 }
 
 
@@ -56,28 +57,18 @@
 
 }
 .live span {
-	color: green;
+	color: #7a1537;
 }
 .image {
-	position: relative;
+	opacity: 0.7;
+	overflow: hidden;
 }
-.image2 {
-	position: absolute;
-	top:12px;
-	left: 0px;
-	opacity: 0;
-	animation: aodai2 10s ease infinite;
+.image img:hover {
+	opacity: 0.8;
+	width: 100%;
+	transform: scale(1.2);
+	transition: all 1s ease ;
 }
-@keyframes aodai2 {
-	50% { opacity: 0.9 }
-}
-.image1 {
-	animation: aodai1 10s ease infinite;
-}
-@keyframes aodai1 {
-	50% { opacity: 0 }
-}
-
 
 
 .girl img {
@@ -122,15 +113,118 @@
 }
 
 .want h3 {
-	color: hotpink;
+	color: #901e16;
 	font-family: fantasy;
 }
 
 
+.she {
+	float: left;
+	overflow: hidden;
+	width: 10%;
+}
+.fly img {
+	width: 100%;
+	border-radius: 50%;
+}
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.one {
+	animation: fly 10s ease infinite;
+}
 
 
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.two {
+	animation: fly 12s ease infinite;
+}
 
 
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.three {
+	animation: fly 14s ease infinite;
+}
+
+
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.four {
+	animation: fly 16s ease infinite;
+}
+
+
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.five {
+	animation: fly 18s ease infinite;
+}
+
+
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.six {
+	animation: fly 20s ease infinite;
+}
+
+
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.seven {
+	animation: fly 22s ease infinite;
+}
+
+
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.eight {
+	animation: fly 24s ease infinite;
+}
+
+
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.nine {
+	animation: fly 26s ease infinite;
+}
+
+
+@keyframes fly {
+	0% { transform: translateY(0); opacity: 0}
+	50% { transform: translateY(-1000%); opacity: 1 }
+	100% { transform: translateY(-2000%); opacity: 0}
+}
+.she.ten {
+	animation: fly 28s ease infinite;
+}
 
 
 
