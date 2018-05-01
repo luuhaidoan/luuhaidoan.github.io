@@ -1,0 +1,199 @@
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+.war {
+
+	width: 100%;
+	margin: auto;
+}
+.main {
+	width: 1200px;
+	margin: auto;
+
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.main::after {
+
+	content: ".";
+	opacity: 0;
+
+}
+
+.big_menu {
+	width: 50%;
+	float: left;
+	/* padding: 85px 0px; */
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	padding-left: 20px;
+}
+.big_menu a {
+	padding: 0px 24px;
+	font-family: Verdana;
+}
+
+.mae {
+	padding: 13px 5px;
+	float: left;
+}
+
+/* visited link */
+.mae:visited a{
+    color: #00FF00;
+    font-size: 25px;
+}
+
+/* mouse over link */
+.mae:hover a{
+    color: #FF00FF;
+    font-size: 25px;
+}
+
+/* selected link */
+.mae:active a{
+    color: #0000FF;
+    font-size: 25px;
+}
+.lines {
+
+	padding: 23px 0px;
+	/* width: 1px; */
+	height: -21px;
+	float: left;
+	border: 1px solid red;
+}
+
+
+
+
+.small_menu {
+	width: 50%;
+	/* padding: 10px 0px; */
+	/* padding: 99px 0px; */
+	float: right;
+	/* padding: 100px 5px; */
+	padding-top: 64px;
+	padding-bottom: 40px;
+	text-align:  right;
+	padding-right: 20px;
+}
+.small_menu a {
+	font-family: Candara;
+}
+a:hover {
+	color: #f0eff5;
+}
+
+.no {
+	opacity: 0;
+}
+.box {
+	width: 1200px;
+	margin: auto;
+}
+.main::box {
+
+	content: ".";
+	opacity: 0;
+
+}
+
+.adver {
+	width: 25%;
+
+	padding: 10px 20px;
+	padding-bottom: 50px;
+	float: left;
+	overflow: hidden;
+
+
+}
+.image {
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+.image img {
+	width: 100%;
+	height: 100%;
+}
+.image:hover .icon {
+	opacity: 1;
+
+}
+.name {
+	padding: 15px 0;
+	font-size: 20px;
+	font-family: Arial Black;
+}
+.adver span {
+	font-size: 18px;
+	color: #e66009;
+}
+.icon {
+	width: 100%;
+	position: absolute;
+	z-index: 5;
+	top: 100px;
+	opacity: 0;
+	transition: opacity 1s;
+
+
+
+}
+.small_icon {
+	width: 50px;
+	height: 50px;
+	padding: 5px 5px;
+}
+.cart {
+	background-color: #f76108;
+	width: 100%;
+	height: 50px;
+	padding: 0 10px;
+	position: relative;
+}
+.small_icon img {
+	width: 100%;
+}
+.cart img {
+	width: 50px;
+	height: 50px;
+}
+.cart a {
+	padding: 5px 5px;
+}
+.add_to_cart {
+	position: absolute;
+	top: 18px;
+	left: 83px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
