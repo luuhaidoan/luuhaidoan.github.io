@@ -1,0 +1,317 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+.head {
+	width: 100%;
+
+}
+.head::after {
+    content: ".";
+    opacity: 0;
+    display: block;
+}
+.main {
+	width: 1200px;
+	margin: auto;
+	padding-right: 10px;
+}
+.main::after {
+    content: ".";
+    opacity: 0;
+    display: block;
+}
+.big_menu {
+	width: 50%;
+	float: left;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+.bigmenu-1 {
+	float: left;
+}
+.bigmenu-1::before {
+	content: " ";
+	float: left;
+	height: 45px;
+	border: 1.5px solid red;
+}
+
+.bigmenu-2 {
+	float: left;
+
+}
+.bigmenu-2::before {
+	content: " ";
+	/* padding: 16px 0px; */
+	float: left;
+	height: 45px;
+	border: 1.5px solid red;
+}
+.text_menu {
+	padding: 10px 37px;
+	font-size: 20px;
+	display:  block;
+	font-family: Verdana;
+}
+.small_menu {
+    /* font-family: Verdana; */
+    width: 50%;
+    float: right;
+    padding-top: 96px;
+    padding-bottom: 44px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 16px;
+
+}
+
+
+.smallmenu_k::after {
+    content: "/";
+    padding: 5px;
+
+}
+.collection {
+	width: 1200px;
+	margin: auto;
+	padding-right: 10px;
+}
+.collection::after {
+    content: ".";
+    opacity: 0;
+    display: block;
+}
+
+.top_image {
+	width: 25%;
+	float: left;
+	padding-right: 20px;
+	position: relative;
+
+}
+.money {
+	color: hotpink;
+	font-size: 22px;
+	padding: 20px 0;
+}
+.img {
+	width: 100%;
+	
+}
+.name_fashion {
+	font-family: Verdana;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+
+.wrap {
+	width: 100%;
+	background-color: #ecdcd9;
+}
+.wrap::after {
+    content: ".";
+    opacity: 0;
+    display: block;
+    padding-bottom: 100px;
+}
+.content {
+	padding-top: 100px;
+	width: 1200px;
+	/* padding-right: 20px; */
+	margin: auto;
+	height: 900px;
+}
+
+/*.content::after {
+    content: ".";
+    opacity: 0;
+    display: block;
+}*/
+
+.box {
+	width: 33.33%;
+	float: left;
+
+}
+.adver {
+	width: 93%;
+	padding: 20px;
+	background-color: aliceblue;
+}
+
+.top_adver::after {
+    content: ".";
+    opacity: 0;
+    display: block;
+}
+.top_adver {
+	padding-bottom: 50px;
+
+}
+.name_adver {
+	width: 50%;
+	float: left;
+	padding: 10px;
+	border-right: 1.5px solid red;
+	border-left: 1.5px solid red;
+	font-size: 18px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.icon_arrow {
+	width: 35%;
+	float: right;
+	padding: 7px;
+	border: 1px solid #ddd;
+	font-size: 23px;
+	text-align: center;
+	color: #777;
+}
+
+.fas {
+	padding: 0 10px;
+}
+
+.adver_img {
+	width: 40%;
+	float: left;
+	position: relative;
+}
+.bottom_image {
+	width: 100%;
+}
+.adver_content {
+	width: 60%;
+	float: left;
+	padding: 0 15px;
+}
+.star {
+	padding-top: 50px;
+	width: 60%;
+}
+.icon_star {
+	width: 20%;
+	float: left;
+	padding: 0 5px;
+}
+
+.name_fa {
+	font-family: Verdana;
+
+}
+
+.body_adver::after {
+    content: ".";
+    opacity: 0;
+    display: block;
+
+}
+.body_adver {
+	padding-bottom: 50px;
+}
+
+.top_image:hover .icon{
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+
+.icon {
+	width: 100%;
+	position: absolute;
+	z-index: 5;
+	top: 170px;
+	opacity: 0;
+	/* left: 30px; */
+	transition: opacity 1s;
+}
+.small_icon {
+	width: 50px;
+	height: 50px;
+	padding: 5px 5px;
+	padding-left: 15px;
+	/* background-color: forestgreen; */
+	/* color:  red; */
+}
+.cart {
+	background-color: #d64c78cf;
+	width: 73%;
+	height: 50px;
+	padding: 0 10px;
+	position: absolute;
+	left: 14px;
+	/* top: 220px; */
+	/* text-align:  center; */
+}
+.small_icon img {
+	width: 100%;
+}
+.cart img {
+	width: 34px;
+	height: 42px;
+	/* padding: 5px 0; */
+	padding-top: 8px;
+}
+.cart a {
+	padding: 5px 5px;
+	text-decoration:  none;
+	color: #ffffff;
+}
+.add_to_cart {
+	position: absolute;
+	top: 18px;
+	left: 83px;
+}
+.grid > .fas {
+	color: hotpink;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+}
+.grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+ 
+}
+.grid::before {
+	position: absolute;
+	top: 50px;
+    right: 30px;
+    bottom: 50px;
+    left: 30px;
+    border: 2px solid hotpink;
+    box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s;
+    -webkit-transform: scale3d(1.4,1.4,1);
+    transform: scale3d(1.4,1.4,1);
+
+}
+.body_adver:hover .grid{
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+.body_adver:hover .grid::before {
+
+
+    opacity: 1;
+
+}
+
