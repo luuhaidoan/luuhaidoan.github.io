@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+
+.site-nav {
+
+    background-color: black;
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+
+}
+.main::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.main-left {
+
+    float: left;
+}
+.main-l-logo {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 30px;
+    text-align: center;
+    padding: 12px 0;
+}
+.main-right {
+    float: right !important;
+    
+}
+.main-r-item {
+    text-align: center;
+    padding: 20px 0;
+    padding-left: 50px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    float: left;
+    list-style-type: none;
+}
+
+.main-a {
+    
+    color: white;
+
+}
+a {
+    text-decoration: none;
+}
+.top {
+
+    background-image: url(../image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
+.banner::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.banner-text {
+    width: 50%;
+    padding-bottom: 150px;
+    float: left;
+}
+.banner-logo {
+    font-size: 80px;
+    padding-bottom: 25px;
+}
+.banner-h {
+    line-height: 45px;
+    font-family:  Verdana;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 30px;
+}
+.line {
+    padding: 40px 0;
+    /* width: 50px; */
+}
+.line::after {
+    content: " ";
+    width: 61px;
+    height: 3px;
+    display: block;
+    clear: both;
+    background-color: #ffffff;
+}
+.banner-p {
+    line-height: 38px;
+    letter-spacing: 1px;
+    /* color:  white; */
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.btn {
+    padding: 15px 0;
+    width: 205px;
+    text-align: center;
+    border: 3px solid white;
+    /* border:  none; */
+    border-radius: 5px;
+}
+.dowload {
+    font-size: 20px;
+    color: white;
+    font-family:  Verdana;
+}
+.banner-login {
+    width: 50%;
+    float: right;
+}
+.banner-lg {
+    padding: 42px 0;
+    padding-left: 189px;
+    /* padding-right: 0; */
+    /* text-align: center; */
+}
+.title-top {font-size: 30px;padding: 22px;/* padding-bottom: 40px; */text-align:  center;background-color: #ddd;border: none;border-radius: 5px 5px 0 0;}
+.box-lg {
+    border:  none;
+    width: 100%;
+    /* margin: auto; */
+    /* border-radius: 4px; */
+}
+.ip {
+    width: 100%;
+    padding: 20px 28px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #777;
+}
+.box-ip {
+    padding: 9px 30px;
+    background-color: white;
+}
+.ip-sb {
+    text-align: center;
+    background-color: #fa8b38;
+    color: white;
+    padding: 22px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 100%;
+}
+input {
+    font: 300 16px system-ui;
+}
+.box-sb {
+    /* padding: 22px 0; */
+    padding-top: 42px;
+    background-color:  white;
+}
+.share {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+
+
+}
+.share::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.social {
+    width: 40%;
+    float: left;
+    /* padding-right: 47px; */
+}
+.social > h3 {
+    padding: 10px 0px;
+    letter-spacing: 0.5;
+}
+.social > p {
+    color: #cccccc;
+    letter-spacing: 0.2px;
+}
+.icon {
+    width: 60%;
+    float: right !important;
+    padding-left: 51px;
+}
+.icon-fa {
+    width: 20%;
+    float: left;
+}
+.icon-fa >a > i {
+    font-size: 60px;
+    padding: 10px 0px;
+    color: #cccccc;
+}
+#footer {
+    border: none;
+    border-bottom: 2px solid #cccccc;
+}
+.content{
+    padding: 100px 0;
+     max-width: 1200px;
+     margin: auto;
+}
+.content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.tab {
+    width: 10%;
+    float: left;
+    margin-right: 10%;
+}
+.tab-btn {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    border: 0.5px solid #ddd;
+    /* border: none; */
+    border-radius: 3px;
+}
+.tab-btn > a {
+    color: white;
+}
+.tab-text {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+.tab-text > h3 {
+    padding-bottom: 50px;
+
+}
+.tab-text > p {
+    padding-bottom: 30px;
+}
+.tab-img {
+    width: 30%;
+    float: left;
+    padding: 60px 0;
+}
+.tab-img > img {
+    width: 100%;
+}
+#tab1 {
+    background-color: #fa8b38;
+}
+.box {
+    background-color: #f5f5f5;
+}
+.lines {
+    padding: 30px 0;;
+}
+.lines::after {
+    content: " ";
+    width: 61px;
+    height: 3px;
+    display: block;
+    clear: both;
+    background-color: #fa8d3f;
+}
+.sub-text {
+    width: 40%;
+    float: left;
+
+}
+.sub-img {
+    padding-top: 15px;
+    width: 40%;
+    float: left;
+    margin-right: 20%;
+}
+.sub-img > img {
+    width: 100%;
+}
+.sub-title {
+    padding-top: 50px;
+}
+.sub-title::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.sub-icon {
+ 
+    margin-right: 10%;
+}
+.sub-title > a > i {
+    color: #fa8d3f;
+    font-size: 35px;
+    display: block;
+    width: 10%;
+    float: left;
+    margin-right: 10%;
+}
+.sub-1-text {
+    width: 80%;
+    float: left;
+}
+.sub-1-text > h4 {
+    /* padding: 30px 0; */
+    padding-bottom: 10px;
+}
+.stan-text {
+    width: 40%;
+    float: left;
+    margin-right: 20%;
+
+}
+.stan-img {
+    width: 40%;
+    float: left;
+
+
+}
+.stan-img > img {
+    width: 100%;
+}
+.stan-text > p {
+    padding-bottom: 20px;
+}
+.box-one {
+    background-color: #f5f5f5;
+}
+ p {
+    color: #8f9094;
+}
